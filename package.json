@@ -1,0 +1,26 @@
+{
+    "name": "app_ejemplo",
+    "version": "0.0.1",
+    "engines": {
+        "node": "14.18.0"
+    },
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [
+        "node",
+        "express"
+    ],
+    "author": "Angélica Mora",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "dotenv": "^11.0.0",
+        "express": "^4.17.2"
+    }
+}
